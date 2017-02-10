@@ -164,7 +164,7 @@ Executable tutd
                    filepath,
                    temporary,
 --stack is still stuck on megaparsec 4, error-handling has changed in megaparsec 5
-                   megaparsec >= 4.4.0 && < 5.0,
+                   megaparsec >= 4.4.0 && < 5.1,
                    haskeline,
                    random, MonadRandom,
                    base64-bytestring,
