@@ -5,7 +5,7 @@ if [[ "$(uname)" = "Darwin" ]]; then
 else
     timeout_cmd="timeout"
 fi
-$timeout_cmd 40m stack --no-terminal --jobs=2 --install-ghc --system-ghc build --only-dependencies
+$timeout_cmd 20m stack --no-terminal --jobs=2 --install-ghc --system-ghc build --only-dependencies
 ret=$?
 case "$ret" in
     0)
